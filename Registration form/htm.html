@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="cs.css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/5f59ca6ad3.js" crossorigin="anonymous"></script>    
+    </head>
+    <body id="bod">
+        <nav><h1>------------Student Enrollment Form-------------</h1></nav>
+        <center>
+            <table id="tab">
+                <tr>
+                    <th>First Name</th>
+                    <td><input class="inp" type="text" name="fun" id="fun"></td>
+                </tr>
+                <tr>
+                    <th>Last Name</th>
+                    <td><input class="inp" type="text" name="last" id="last"></td>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <td><input class="inp" type="text" name="mail" id="mail"></td>
+                </tr>
+                <tr>
+
+                    <th>Age</th>
+                    <td><input class="inp" type="text" name="age" id="age"></td>
+                </tr>
+                <tr>
+                    <th>Mobile Number</th>
+                    <td><input class="inp" type="text" name="mob" id="mob"></td>
+                </tr>
+                <tr id="btna">
+                    <td colspan="2"><input type="button" name="but"  value="add" onclick="Addrow()" id="but"></td>
+                </tr>
+            </table>
+            <table id="show">
+                <thead>
+                <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Age</th>
+                <th>Mobile Num</th></tr>
+                </thead>
+                </table>
+        </center>
+        <script src="jss.js"></script>
+    </body>
+</html>
